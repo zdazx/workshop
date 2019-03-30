@@ -15,3 +15,11 @@ git checkout -b name 创建并跳转到新分支
 git checkout name跳转分支
 
 git -commit --ament 与上一次commit合二为一
+
+git push -f  强制将本地所有东西推上去 远程仓促的东西编程自己本地的   该命令要慎用！！！ force
+
+git rebase --continue 跳到下一个需要解决冲突的地方  如果跳出master说明冲突解决了  如果跳另外一个的话 说明还有冲突需要解决
+
+此时push需要使用 git push -f
+
+推荐《Pro Git》
